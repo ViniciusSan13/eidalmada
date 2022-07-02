@@ -152,19 +152,19 @@ h1{
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 690px){
   .slider {
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    width: 400px;
-    height: 480px;
+    margin: 0 -18px;
+    width: 600px;
+    height: 600px;
     overflow: hidden;
   }
 
   .slides {
       width: 800%;
-      height: 480px;
+      height: 600px;
       display: flex;
   }
 
@@ -174,20 +174,20 @@ h1{
   }
 
   .slide img {
-    width: 400px;
+    width: 600px;
   }
 
   input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin-left: -2%;
+    margin-left: -10%;
   }
 
   .manual-navigation {
     position: absolute;
-    width: 400px;
-    margin-top: -20px;
+    width: 600px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-content: center;

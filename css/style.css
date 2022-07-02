@@ -156,7 +156,7 @@ h1{
   .slider {
     align-items: center;
     justify-content: center;
-    margin: 0 -18px;
+    margin: auto auto;
     width: 600px;
     height: 600px;
     overflow: hidden;

@@ -41,7 +41,7 @@ h1{
 }
 
 #header {
-  font-family: Gotham_Black;
+  font-family: Bangela;
   box-sizing: border-box;
   height: 70px;
   padding: 1rem;
@@ -75,7 +75,7 @@ h1{
 }
 
 #btn-mobile {
-  font-family: Gotham_Black;
+  font-family: Bangela;
   display: none;
   color: #fff;
   text-decoration: none;

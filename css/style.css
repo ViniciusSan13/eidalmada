@@ -157,7 +157,7 @@ h1{
     align-items: center;
     justify-content: center;
     margin: auto auto;
-    width: 640px;
+    width: 100%;
     height: 800px;
     overflow: hidden;
   }
@@ -174,7 +174,7 @@ h1{
   }
 
   .slide img {
-    width: 640px;
+    width: 100%;
   }
 
   input {
@@ -186,8 +186,8 @@ h1{
 
   .manual-navigation {
     position: absolute;
-    width: 640px;
-    margin-top: 95%;
+    width: 100%;
+    margin-top: -20px;
     display: flex;
     justify-content: center;
     align-content: center;

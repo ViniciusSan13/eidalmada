@@ -23,7 +23,7 @@ ul {
 a {
   color: #fff;
   text-decoration: none;
-  font-family: ;
+  font-family: Gotham_Black;
 }
 
 a:hover {
@@ -35,13 +35,7 @@ h1{
   font-family: Gotham_Black;
   }
 
-#logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 #header {
-  font-family: Bangela;
   box-sizing: border-box;
   height: 70px;
   padding: 1rem;
@@ -55,36 +49,35 @@ h1{
   display: flex;
   list-style: none;
   gap: 2rem;
-  font-family: Bangela;
-  font-size: 30px;
+  font-family: Gotham_Black;
+  font-size: 20px;
 }
 
 #menu a {
   display: block;
-  padding: -0.5rem;
-  margin-top: -5px;
+  padding: 0.5rem;
+  margin-top: 8px;
 }
 
 #menu .redesocial{
   display: flex;
   list-style: none;
   gap: 0.5rem;
-  margin-top: 5px;
+  margin-top: -5px;
   flex-direction: row;
   vertical-align: middle;
 }
 
 #btn-mobile {
-  font-family: Bangela;
+  font-family: Gotham_Black;
   display: none;
   color: #fff;
   text-decoration: none;
-  font-family: sans-serif;
 }
 
 @media (max-width: 690px) {
   #menu {
-    font-family: Bangela;
+    font-family: Gotham_Black;
     display: block;
     position: absolute;
     width: 100%;
@@ -96,6 +89,7 @@ h1{
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
+    font-size: 14px;
   }
   #menu .redesocial{
     margin-top: 150px;
@@ -158,23 +152,19 @@ h1{
   }
 }
 
-#container {
-  display: inline-block; 
-}
-
 @media (max-width: 690px){
   .slider {
     align-items: center;
     justify-content: center;
-    margin: 0 -18px;
-    width: 500px;
-    height: 600px;
+    margin: 0 auto;
+    width: 360px;
+    height: 480px;
     overflow: hidden;
   }
 
   .slides {
       width: 800%;
-      height: 600px;
+      height: 480px;
       display: flex;
   }
 
@@ -184,7 +174,7 @@ h1{
   }
 
   .slide img {
-    width: 500px;
+    width: 360px;
   }
 
   input {
@@ -196,7 +186,7 @@ h1{
 
   .manual-navigation {
     position: absolute;
-    width: 500px;
+    width: 360px;
     margin-top: -20px;
     display: flex;
     justify-content: center;
@@ -251,6 +241,7 @@ h1{
 }
 
 @media (min-width: 1000px){
+
   .slider {
     align-items: center;
     justify-content: center;
@@ -448,8 +439,9 @@ h1{
 
 .btn{
   font-family: Gotham_Black;
+  font-size: 24px;
   padding: 20px 10px;
-  width: 280px;
+  width: 320px;
   color: #fff;
   background-color: #ee9c2e;
   border: 1px solid #f1dec3;
@@ -463,7 +455,7 @@ h1{
 .btn_space{
   font-family: Gotham_Black;
   padding: 0px 5px;
-  width: 280px;
+  width: 320px;
   color: #fff;
   background-color: transparent;
   user-select: none;

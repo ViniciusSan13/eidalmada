@@ -157,14 +157,14 @@ h1{
     align-items: center;
     justify-content: center;
     margin: auto auto;
-    width: 600px;
-    height: 600px;
+    width: 250px;
+    height: 370px;
     overflow: hidden;
   }
 
   .slides {
       width: 800%;
-      height: 600px;
+      height: 370px;
       display: flex;
   }
 
@@ -174,19 +174,19 @@ h1{
   }
 
   .slide img {
-    width: 600px;
+    width: 250px;
   }
 
   input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin-left: -10%;
+    margin-left: 0%;
   }
 
   .manual-navigation {
     position: absolute;
-    width: 600px;
+    width: 250px;
     margin-top: 0px;
     display: flex;
     justify-content: center;

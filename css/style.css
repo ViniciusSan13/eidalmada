@@ -75,7 +75,7 @@ h1{
   text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   #menu {
     font-family: Gotham_Black;
     display: block;
@@ -438,7 +438,7 @@ h1{
 
 .btn{
   font-family: Gotham_Black;
-  font-size: 24px;
+  font-size: 18px;
   padding: 20px 10px;
   width: 320px;
   color: #fff;

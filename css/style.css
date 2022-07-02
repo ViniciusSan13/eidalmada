@@ -75,7 +75,7 @@ h1{
   text-decoration: none;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 600px) {
   #menu {
     font-family: Gotham_Black;
     display: block;
@@ -89,7 +89,7 @@ h1{
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
-    font-size: 14px;
+    font-size: 16px;
   }
   #menu .redesocial{
     margin-top: 150px;
@@ -152,12 +152,12 @@ h1{
   }
 }
 
-@media (max-width: 690px){
+@media (max-width: 600px){
   .slider {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 360px;
+    width: 400px;
     height: 480px;
     overflow: hidden;
   }
@@ -174,19 +174,19 @@ h1{
   }
 
   .slide img {
-    width: 360px;
+    width: 400px;
   }
 
   input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin-left: -0.04%;
+    margin-left: -2%;
   }
 
   .manual-navigation {
     position: absolute;
-    width: 360px;
+    width: 400px;
     margin-top: -20px;
     display: flex;
     justify-content: center;

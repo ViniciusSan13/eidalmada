@@ -206,7 +206,7 @@ h1{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    padding-left: -0.1%;
+    margin-left: -0.1%;
   }
 
   .manual-navigation {

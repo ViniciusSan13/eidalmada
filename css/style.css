@@ -166,7 +166,7 @@ h1{
   .slider_publicacoes {
     align-items: left;
     justify-content: left;
-    margin: auto auto;
+    margin: 0 0;
     width: 100%;
     height: 100%;
     overflow: hidden;

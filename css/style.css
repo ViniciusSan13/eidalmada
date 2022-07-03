@@ -269,8 +269,7 @@ h1{
     color: #f28e36;
     text-align: justify;
     align-content: space-around;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 10px 10px;
     margin-bottom: 5px;
     text-indent: 30px;
   }

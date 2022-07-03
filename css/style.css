@@ -269,7 +269,8 @@ h1{
     color: #f28e36;
     text-align: justify;
     align-content: space-around;
-    margin: 3px 3px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-bottom: 2%;
     text-indent: 30px;
   }
@@ -281,14 +282,15 @@ h1{
     line-height: 26px;
     text-align: center;
     align-content: space-around;
-    margin: 3px 3px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-top: 2%;
   }
 
   .btn_space{
     font-family: Gotham_Black;
     padding: 0px 1px;
-    width: 240px;
+    width: 320px;
     color: #fff;
     background-color: transparent;
     user-select: none;
@@ -298,7 +300,7 @@ h1{
   .btn_space2{
     font-family: Gotham_Black;
     padding: 20px 0px;
-    width: 240px;
+    width: 320px;
     color: #fff;
     background-color: transparent;
     user-select: none;

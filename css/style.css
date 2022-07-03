@@ -290,7 +290,7 @@ h1{
   .btn_space{
     font-family: Gotham_Black;
     padding: 0px 1px;
-    width: 320px;
+    width: 240px;
     color: #fff;
     background-color: transparent;
     user-select: none;
@@ -300,10 +300,25 @@ h1{
   .btn_space2{
     font-family: Gotham_Black;
     padding: 20px 0px;
-    width: 320px;
+    width: 240px;
     color: #fff;
     background-color: transparent;
     user-select: none;
+    letter-spacing: 1px;
+  }
+
+  .btn{
+    font-family: Gotham_Black;
+    font-size: 14px;
+    padding: 20px 10px;
+    width: 240px;
+    color: #fff;
+    background-color: #ee9c2e;
+    border: 1px solid #f1dec3;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
     letter-spacing: 1px;
   }
 
@@ -464,6 +479,21 @@ h1{
     letter-spacing: 1px;
   }
 
+  .btn{
+    font-family: Gotham_Black;
+    font-size: 18px;
+    padding: 20px 10px;
+    width: 320px;
+    color: #fff;
+    background-color: #ee9c2e;
+    border: 1px solid #f1dec3;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+
 }
 
 .manual-btn {
@@ -576,20 +606,5 @@ h1{
 .btn:hover{
   background: #f28e36;
   transition: 1s;
-}
-
-.btn{
-  font-family: Gotham_Black;
-  font-size: 18px;
-  padding: 20px 10px;
-  width: 320px;
-  color: #fff;
-  background-color: #ee9c2e;
-  border: 1px solid #f1dec3;
-  border-radius: 10px;
-  text-align: center;
-  user-select: none;
-  cursor: pointer;
-  letter-spacing: 1px;
 }
 

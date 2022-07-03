@@ -157,7 +157,7 @@ h1{
   .slider {
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: auto auto;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -206,6 +206,7 @@ h1{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    padding-left: -0.1%;
   }
 
   .manual-navigation {
@@ -259,7 +260,7 @@ h1{
     align-content: space-around;
     padding: 0.5rem;
     margin: 10px 10px;
-    text-indent: 60px;
+    text-indent: 30px;
   }
 
   .texto_publicacoes {
@@ -271,7 +272,7 @@ h1{
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 5px;
-    text-indent: 60px;
+    text-indent: 30px;
   }
 
   .titulo {
